@@ -7,7 +7,8 @@
         <title>Simplify with your business</title>
 
         <!-- Bootstrap -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="vendors/bootstrap/3.3.7/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="resources/css/custom.css" rel="stylesheet">
     </head>
   <body>
@@ -76,8 +77,42 @@
 		  <p style="subtitle"  class="text-center">Last added poll</p>
 		  <hr>
 		  
-		  <div id="poll">
+		  
+		  <div class="row">
+			  <div class="col-md-4">
+				  <div class="panel panel-info">
+					  <div class="panel-heading">
+					  		<h3 class="panel-title"><i class="fa fa-bar-chart" aria-hidden="true"></i> Vote for right poll </h3>
+					  </div>
+					  <div class="panel-body">
+						<ul class="list-group">
+							<li class="list-group-item">
+								<div class="radio">
+									<label><input type="radio" name="optradio">Java</label>
+								</div>
+							</li>
+							<li class="list-group-item">
+								<div class="radio">
+									<label><input type="radio" name="optradio">C#</label>
+								</div>
+							</li>
+							<li class="list-group-item">
+								<div class="radio">
+									<label><input type="radio" name="optradio">Pyhton</label>
+								</div>
+							</li>
+						</ul>
+					  </div>
+					  	<div class="panel-footer text-center">
+							<button type="button" class="btn btn-success btn-block btn-sm">Vote</button>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="col-md-8">
+		  		<div id="poll">
 			  
+		  		</div>			  
+			  </div>
 		  </div>		  
 	  </div>
 	  
@@ -96,7 +131,7 @@
       <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 	  
 	  <script src="http://code.highcharts.com/highcharts.js"></script>
-	  
+	  <script src="resources/js/home-charts.js"></script>
 	  <script>
 
 	  </script>

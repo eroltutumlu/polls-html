@@ -1,0 +1,15 @@
+footer {
+	background-color: #ccc;
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding: 30px;
+}
+
+.zero-bottom{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.subtitle{
+	font-size:13px; margin-left:15px;
+}

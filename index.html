@@ -72,8 +72,8 @@
       	</div>
 		  
 		  
-		  <h2 style="margin-bottom:0; padding-bottom:0;" class="text-center">Poll overview</h2>
-		  <p style="font-size:13px; margin-left:15px;"  class="text-center">Last added poll</p>
+		  <h2 class="zer-bottom text-center">Poll overview</h2>
+		  <p style="subtitle"  class="text-center">Last added poll</p>
 		  <hr>
 		  
 		  <div id="poll">
@@ -98,41 +98,8 @@
 	  <script src="http://code.highcharts.com/highcharts.js"></script>
 	  
 	  <script>
-		  $(document).ready(function(){
-			  
-			  var options = {
-				  chart:{
-					  renderTo:'poll',
-					  type:'bar'
-				  },
-				  title:{
-					  text:'Which programming language do you prefer?'
-				  },
-				  xAxis:{
-					  categories:[
-						  'Java',
-						  'C#',
-						  'Python'
-					  ]
-				  },
-				  yAxis:{
-					  title:{
-						  text:'According to the users'
-					  }
-				  },
-				  series:[
-					  {
-						  name:'Users',
-						  data:[5,9,4]
-					  }
-				  ]
-			  };
-			  
-			  var barChart = new Highcharts.chart(options); 
-		  });
+
 	  </script>
-	  
-	  
-      
+	        
   </body>
 </html>

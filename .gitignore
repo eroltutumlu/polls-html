@@ -40,5 +40,4 @@ Thumbs.db
 # Node modules & files#
 ###############
 node_modules/
-resources/
 vendors/

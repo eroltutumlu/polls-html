@@ -29,4 +29,5 @@ $(document).ready(function(){
   };
 
   var barChart = new Highcharts.chart(options); 
+	
 });
